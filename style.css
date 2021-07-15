@@ -1,0 +1,40 @@
+h1{
+    font-size: 4rem;
+    color: rgb(96, 130, 167);
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+    margin-bottom: 0;
+}
+
+button{
+    border: solid 1px #008CBA;
+    background-color: #008CBA;
+    margin: 0 2rem;
+    color: rgb(223, 223, 226);
+    border-radius: 10rem;
+    padding: 0.5rem;
+
+}
+
+p{
+    font-weight: 500;
+    font-size: 4rem;
+    padding: none;
+    margin: 1rem;
+    color: grey;
+}
+
+button:hover{
+    background-color: #02779e;
+}
+
+button:active{
+    background-color: rgb(223, 223, 226);
+    color: #008CBA;
+}
